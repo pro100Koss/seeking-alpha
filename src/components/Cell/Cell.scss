@@ -1,0 +1,12 @@
+$cell-size: 40px;
+
+.cell {
+  width: $cell-size;
+  height: $cell-size;
+  background-color: white;
+  border: 2px solid lightgray;
+
+  &.is-alive {
+    background-color: black;
+  }
+}
